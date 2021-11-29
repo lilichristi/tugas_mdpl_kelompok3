@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Angkringan Site</title>
+        <style>
+            ul {
+                list-style-type:none;
+                margin: 0px;
+                padding: 2px;
+                text-align:right;
+                float:unset;
+            }
+            li {
+                padding: 3px;
+                margin:3px;
+                display:unset;
+                background-color:#1a1a1a;
+                text-align: center;
+                font-style: normal;
+            }
+            body {
+                background-color: #1a1a1a;
+                margin: 0 20%;
+                font-family: 'Lucida Sans';
+                color: #ffffff;
+            }
+            h1 {
+                color: #ffffff;
+                text-align: center;
+                font-family: Georgia;
+                font-weight: normal;
+                text-transform: uppercase;
+                margin-top: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1><img src="logo.png" alt="Logo Angkringan"><br>Sedulur Angkringan</h1>
+    <hr>
+    <p>
+        <h4>Menu :</h4>
+        <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMakanan</h4>
+        <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMinuman</h4>
+    </p>
+    <p align=center>
+        <video controls autoplay="true" width="400" height="300">
+            <source src="angkringan.mp4" type="video/mp4"/>
+        </video>
+    </p>
+    <hr>
+    <h1>Makanan</h1>   
+    <div class="row">
+        <div class="col-sm-4" align="center" style="background-color:#1a1a1a">
+            <img src="Sate Telur Puyuh Angkringan.jpeg" alt="Sate Telur Puyuh Angkringan" width="250" height="250">
+            <ul></ul>
+                <li><h1>Sate Telur Puyuh</h1></li>
+                <li><h1>Rp.2000</h1></li>
+                <li><h1><a href="pesan.html">Pesan Disini</h1></a></a></li>
+              </ul>
+        </div>
+        <div class="col-sm-4" align="center" style="background-color:#1a1a1a">
+            <img src="Sate Usus Angkringan.jpeg" alt="Sate Usus Angkringan" width="250" height="250">
+            <ul>
+                <li><h1>Sate Usus Ayam</h1></li>
+                <li><h1>Rp.2000</h1></li>
+                <li><h1><a href="pesan.html">Pesan Disini</h1></a></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4" align="center" style="background-color: #1a1a1a">
+            <img src="Tempe Bacem.jpeg" alt="Tempe Bacem" width="250" height="250">
+            <ul>
+                <li><h1>Tempe Bacem Kecap</h1></li>
+                <li><h1>Rp.1000</h1></li>
+                <li><h1><a href="pesan.html">Pesan Disini</h1></a></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4" align="center" style="background-color: #1a1a1a">
+            <img src="Nasi Bakar Ikan.jpeg" alt="Nasi Bakar Ikan" width="250" height="250">
+            <ul>
+                <li><h1>Nasi Bakar Ikan</h1></li>
+                <li><h1>Rp.6000</h1></li>
+                <li><h1><a href="pesan.html">Pesan Disini</h1></a></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4" align="center" style="background-color: #1a1a1a">
+            <img src="Sosis Bakar.jpeg" alt="Sosis Bakar" width="250" height="250">
+            <ul>
+                <li><h1>Sate Sosis Bakar</h1></li>
+                <li><h1>Rp.2000</h1></li>
+                <li><h1><a href="pesan.html">Pesan Disini</h1></a></a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <h2>Minuman</h2>   
+    <div class="row">
+        <div class="col-sm-4" align="center" style="background-color:#1a1a1a">
+        <img src="esteh.JPG" alt="esteh" width="250" height="250">
+        <ul></ul>
+            <li><h2>ES TEH</h2></li>
+            <li><h2>Rp.2000</h2></li>
+            <li><h2><a href="pesan.html">Pesan Disini</h2></a></a></li>
+          </ul>
+          </div>
+          <div class="row">
+            <div class="col-sm-4" align="center" style="background-color:#1a1a1a">
+              <img src="esjeruk.JPG" alt="esjeruk" width="250" height="250">
+            <ul></ul>
+                <li><h2>ES JERUK</h2></li>
+                <li><h2>Rp.3000</h2></li>
+                <li><h2><a href="pesan.html">Pesan Disini</h2></a></a></li>
+    <a href="Beranda.html"><h1 align=center style="color: red;">Kembali</h2></a>
+    </body>
+</html>
